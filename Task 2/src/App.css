@@ -1,0 +1,47 @@
+.App
+{
+    background-color:blue;
+    padding:50px;
+}
+.button
+{
+    margin: 30px 10px 20px 600px;
+    border-radius: 15px;
+    padding: 20px;
+    color: red;
+    background-color: yellow;
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.button:hover
+{
+    color:teal;
+    background-color: white;
+}
+.data
+{
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    width:400px;
+    color:white;
+    font-size: 1rem;
+    align-items: center;
+    border-radius: 15px;
+    margin:10px 10px 10px 480px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+    background:orangered;
+    backdrop-filter: blur(5px);
+}
+
+.box h2{
+    margin-left:600px;
+    font-size: 1.5rem;
+    color:white;
+}
+
+.data:hover{
+    height:320px;
+    width:410px;
+}
